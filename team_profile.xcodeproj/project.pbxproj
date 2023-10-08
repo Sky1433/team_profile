@@ -12,6 +12,7 @@
 		22904B3D2AD29AD200B41926 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22904B3C2AD29AD200B41926 /* ContentView.swift */; };
 		22904B3F2AD29AD400B41926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22904B3E2AD29AD400B41926 /* Assets.xcassets */; };
 		22904B422AD29AD400B41926 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22904B412AD29AD400B41926 /* Preview Assets.xcassets */; };
+		35E1F7AE2AD2A5B5008EEF2B /* Muna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1F7AD2AD2A5B5008EEF2B /* Muna.swift */; };
 		4B4DD3452AD2A4500025DF82 /* DiyamProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DD3442AD2A4500025DF82 /* DiyamProfile.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		22904B3C2AD29AD200B41926 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22904B3E2AD29AD400B41926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22904B412AD29AD400B41926 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35E1F7AD2AD2A5B5008EEF2B /* Muna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muna.swift; sourceTree = "<group>"; };
 		4B4DD3442AD2A4500025DF82 /* DiyamProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyamProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 				22904B3C2AD29AD200B41926 /* ContentView.swift */,
 				104BC8A22AD2A15A008464A5 /* Sumaiya.swift */,
 				4B4DD3442AD2A4500025DF82 /* DiyamProfile.swift */,
+				35E1F7AD2AD2A5B5008EEF2B /* Muna.swift */,
 				22904B3E2AD29AD400B41926 /* Assets.xcassets */,
 				22904B402AD29AD400B41926 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				22904B3D2AD29AD200B41926 /* ContentView.swift in Sources */,
 				22904B3B2AD29AD200B41926 /* team_profileApp.swift in Sources */,
+				35E1F7AE2AD2A5B5008EEF2B /* Muna.swift in Sources */,
 				4B4DD3452AD2A4500025DF82 /* DiyamProfile.swift in Sources */,
 				104BC8A32AD2A15A008464A5 /* Sumaiya.swift in Sources */,
 			);
