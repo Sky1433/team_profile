@@ -9,7 +9,24 @@ import SwiftUI
 
 struct DiyamProfile: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading){
+            Image("ShowingMe")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .clipShape(Circle())
+                .padding(0)
+                .overlay(Circle()
+                    .stroke(Color.white, lineWidth: 2))
+                .shadow(radius:10)
+            
+            Text("Diyam Alrabah")
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            Text("IOS developer in progress")
+                .foregroundColor(.black)
+                .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+        } .padding(40)
+           
     }
 }
 
