@@ -9,7 +9,25 @@ import SwiftUI
 
 struct Muna: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Image("profile")
+                .resizable().aspectRatio(contentMode: .fit)
+                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                .overlay(Circle().stroke(Color.pink,lineWidth: 4)
+                )
+                .shadow(radius: 10)
+            
+            Text("Muna Al-hajj")
+                .foregroundStyle(.pink )
+                .bold()
+                .italic()
+                .font(.largeTitle)
+            
+            Text("THE BEST 🫳🏻")
+                .foregroundColor(.gray)
+                .italic()
+        }
+        .padding()
     }
 }
 
