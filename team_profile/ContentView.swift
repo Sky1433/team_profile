@@ -9,12 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack{
+            Image("Samaa'sPic")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .clipShape(Circle())
+                .padding(0)
+                .overlay(Circle().stroke (.black, lineWidth: 2))
+                .padding(50)
+
+           Text("Sama'a Alanazi")
+                .fontWeight(.bold)
+                .font(.title)
+            Text("👋 Hello I am Samaa Alanazi a UI/UX designer, UX Reacher, Front-end developer ,✨ I am a bright, self-motivated, and reliable professional with a passion for continuous learning and growth. ")
+                .padding(25)
+                
         }
+
         .padding()
     }
 }
